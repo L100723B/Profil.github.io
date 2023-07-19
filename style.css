@@ -1,0 +1,54 @@
+/* Gaya CSS untuk tampilan aplikasi */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, #FF4444, #8E2DE2, #4A00E0, #FF8800);
+}
+
+h1 {
+    color: #fff;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-card h2 {
+    margin-top: 10px;
+    color: #fff;
+}
+
+.profile-card .social-links {
+    margin-top: 20px;
+}
+
+.profile-card .social-links a {
+    display: inline-block;
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.profile-card .social-links a:hover {
+    background-color: #fff;
+    color: #FF4444;
+}
